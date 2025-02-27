@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
         <Link to="/cart" className="w-5 min-w-5">
           <img src={assets.cart_icon} className="w-5 min w-5" alt="" />
-          <p className="absolute right-[-5px] bottom-[-5px] w-4 text center leading-4 bg-black text-white aspect-square rounded-full text-[8px]"></p>
+          <p className="absolute right-[-5px] bottom-[-5px] w-4 text center leading-4 bg-black text-white aspect-square rounded-full text-[8px]">10</p>
         </Link>
         <img
           onClick={() => setVisible(true)}
@@ -78,7 +78,7 @@ const Navbar = () => {
             COLLECTION
           </NavLink>
           <NavLink  onClick={()=>setVisible(false)}   className="py-2 pl-6 border" to="/about">ABOUT</NavLink>
-          <NavLink onClick={()=>setVisible(false)}   className="py-2 pl-6 border" to="/contact">CONTAC</NavLink>
+          <NavLink onClick={()=>setVisible(false)}   className="py-2 pl-6 border" to="/contact">CONTACT</NavLink>
         </div>
       </div>
     </div>
